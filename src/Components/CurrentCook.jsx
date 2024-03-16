@@ -1,5 +1,5 @@
 
-const CurrentCook = ({cooking,caloriess,cookingTime}) => {
+const CurrentCook = ({cooking,caloriess,cookingTime,indx}) => {
     console.log(cooking)
     const{recipe_id,recipe_name,recipe_image,short_description,ingredients,preparing_time,calories }=cooking;
     return (
@@ -12,7 +12,7 @@ const CurrentCook = ({cooking,caloriess,cookingTime}) => {
     <tbody>
       {/* row 1 */}
       <tr className="bg-base-200 ">
-        <th>1</th>
+        <th>{indx+1}</th>
         <td>{recipe_name}</td>
         <td>{preparing_time} Min</td>
         <td>{calories} calories</td>

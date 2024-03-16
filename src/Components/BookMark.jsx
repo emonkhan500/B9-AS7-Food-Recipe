@@ -19,7 +19,7 @@ const BookMark = ({bookMark,handleRemoveBookmark,cooking ,caloriess,cookingTime}
     </thead>
            <div>
            {
-            bookMark.map(book=><ShowBookMark handleRemoveBookmark={handleRemoveBookmark} book={book}></ShowBookMark>)
+            bookMark.map((book,index)=><ShowBookMark indx={index} handleRemoveBookmark={handleRemoveBookmark} book={book}></ShowBookMark>)
            } 
            </div>
            <div>
@@ -38,7 +38,7 @@ const BookMark = ({bookMark,handleRemoveBookmark,cooking ,caloriess,cookingTime}
     </thead>
         <div className="mt-3 ">
         {
-            cooking.map(cook=><CurrentCook cookingTime={cookingTime} caloriess={caloriess} cooking={cook}></CurrentCook>)
+            cooking.map((cook,index)=><CurrentCook indx={index} cookingTime={cookingTime} caloriess={caloriess} cooking={cook}></CurrentCook>)
         }
         </div>
         <hr  className="h-2 mb-4 mt-4 font-bold" />

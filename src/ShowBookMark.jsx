@@ -1,6 +1,6 @@
 
 
-const ShowBookMark = ({book,handleRemoveBookmark}) => {
+const ShowBookMark = ({book,handleRemoveBookmark,indx}) => {
   const{recipe_id,recipe_name,recipe_image,short_description,ingredients,preparing_time,calories }=book;
     return (
         <div>
@@ -8,10 +8,10 @@ const ShowBookMark = ({book,handleRemoveBookmark}) => {
   <table className="table mt-3">
     {/* head */}
     
-    <tbody className="">
+    <tbody className=""> 
       {/* row 1 */}
       <tr className="bg-base-200">
-        <th>1</th>
+        <th>{indx+1}</th>
         <td>{recipe_name}</td>
         <td>{preparing_time} Min</td>
         <td>{calories} calories</td>
