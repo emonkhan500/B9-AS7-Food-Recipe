@@ -1,0 +1,58 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Chicken Stir Fry",
+      "recipe_image": "https://i.ibb.co/K2gL7g4/sunday-roast-chicken-with-potatoes-holiday-meal-1.jpg",
+      
+      "short_description": "A flavorful and quick chicken stir fry with fresh vegetables.",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushroom"],
+      "preparing_time":30,
+      "calories": 320
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Vegetable Curry",
+      "recipe_image": "https://i.ibb.co/GHGk2S8/deep-fried-wonton-dark-surface-1.jpg",
+      "short_description": "A hearty and delicious vegetable curry packed with spices.",
+      "ingredients": ["300 g mixed vegetables", "200 ml coconut milk", "100 g curry paste", "150 g tofu"],
+      "preparing_time":45,
+      "calories":250
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Spaghetti Carbonara",
+      "recipe_image": "https://i.ibb.co/SyX4nd3/Rectangle-20170.png",
+      "short_description": "Classic Italian spaghetti carbonara with crispy bacon and creamy sauce.",
+      "ingredients": ["400 g spaghetti", "200 g bacon", "3 eggs", "100 g grated Parmesan cheese"],
+      "preparing_time":25,
+      "calories":380
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Caprese Salad",
+      "recipe_image": "https://i.ibb.co/4VwjTsp/Rectangle-20170-1.png",
+      "short_description": "A refreshing and simple salad with ripe tomatoes, fresh mozzarella, and basil.",
+      "ingredients": ["4 tomatoes", "200 g fresh mozzarella", "100 g basil leaves", "50 ml balsamic glaze"],
+      "preparing_time": 15 ,
+      "calories": 180 
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Grilled Salmon",
+      "recipe_image": "https://i.ibb.co/HBZJ2gW/19545-1.jpg",
+      "short_description": "Juicy grilled salmon fillets seasoned with herbs and lemon.",
+      "ingredients": ["4 salmon fillets", "2 tbsp olive oil", "1 lemon", "Salt and pepper to taste"],
+      "preparing_time":20,
+      "calories":300
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Chocolate Cake",
+      "recipe_image": "https://i.ibb.co/LhSFswF/4639-1.jpg",
+      "short_description": "Decadent chocolate cake with rich chocolate frosting.",
+      "ingredients": ["200 g flour", "100 g cocoa powder", "250 g sugar", "150 g butter", "4 eggs"],
+      "preparing_time":50,
+      "calories":400
+    }
+  ]
+  
